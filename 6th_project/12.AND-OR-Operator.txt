@@ -1,0 +1,10 @@
+use family
+
+##--------- multiple quiry
+
+db.mother.find({$and: [{price: {$lte: 10000}}, {stock: {$eq: true}}]}, {title:1})   // and 
+  
+db.mother.find({$or: [{price: {$lte: 10000}}, {stock: {$eq: true}}]}, {title:1})    // OR
+
+
+##====== db.mother.find({$and: [{condition-1}, {condition-2}]}, {projection}) =========##

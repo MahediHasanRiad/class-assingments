@@ -1,0 +1,5 @@
+use family
+
+db.mother.update({id: 4}, {$set: {name: 'riad'}})
+
+##----- db.collection.update({target}, {$set: {update-data}})

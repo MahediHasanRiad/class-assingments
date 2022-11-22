@@ -1,0 +1,5 @@
+use family
+
+db.mother.find()            // db.collection-name.find()--------- [for all data]
+
+db.mother.find().pretty()           // for formeting

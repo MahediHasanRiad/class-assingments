@@ -1,0 +1,3 @@
+use family
+
+db.mother.remove({name: 'riad'})        // db.collection.remove({condition})

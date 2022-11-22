@@ -1,0 +1,4 @@
+// must be creat collection & one insert value for creating Database
+
+use School                         // (use + database name)
+db.students.insert({name: 'riad'})               // db + collection name + insert value

@@ -1,0 +1,3 @@
+use family              // use + database-name
+
+db.createCollection('mother')       // db.createCollection('collection-name')

@@ -1,0 +1,3 @@
+use family
+
+db.mother.find().limit(3)           // db.condition.find().limit(how-many-data)

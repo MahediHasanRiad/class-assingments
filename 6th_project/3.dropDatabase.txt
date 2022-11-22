@@ -1,0 +1,3 @@
+use School          // use + database-name
+
+db.dropDatabase()       

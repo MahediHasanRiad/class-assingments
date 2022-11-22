@@ -1,0 +1,5 @@
+use family
+
+db.mother.find({}, {name:1, age: 1}).pretty()       //find selected Collumn... (1 == true ,,,,,, 0 == flase)
+
+                                                    //db.mother.find({query-obj}, {projection-obj}).pretty()

@@ -1,0 +1,20 @@
+use family                      // use + database-name
+
+##-------- db.collection-name.find({which-proparty: {condition}, {projection}}) ----------##
+
+db.mother.find(id: {$eq: 50}, {title: 1})               // $eq == equal 
+
+db.mother.find(id: {$lt: 50}, {title: 1})               // $lt == less than
+
+db.mother.find(id: {$lte: 50}, {title: 1})              // $lte == less than equal
+
+db.mother.find(id: {$gt: 50}, {title: 1})               // $gt == grater than
+
+db.mother.find(id: {$gte: 50}, {title: 1})              // $gte == gatter than equal
+
+db.mother.find(id: {$ne: 50}, {title: 1})               // $ne == not equal
+
+db.mother.find(id: {$in: [50, 60, 80]}, {title: 1})     // $in == in operator  // perform multiple OR operator
+
+db.mother.find(id: {$nin: [55, 22, 65]}, {title: 1})    // $in == not in  // perform multiple OR operator
+

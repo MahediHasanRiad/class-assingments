@@ -1,0 +1,5 @@
+use family
+
+db.mother.findOne()             // db.collection-name.findOne()-------- when find 1st item
+
+db.mother.findOne({name: 'a'})          // db.collection-name.findOne({name: 'a'})--------- when find selected item

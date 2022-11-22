@@ -1,0 +1,9 @@
+use family
+
+db.mother.find({}, {title: 1}).sort({price: 1})         
+
+
+
+##--------- db.collection.find({quiry}, {projection}).sort({item:1/-1}) ---------## 
+
+// (1 == a to z || 1 to 100) && (-1 == z to a || 100 to 1)

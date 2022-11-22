@@ -1,0 +1,3 @@
+use family
+
+db.mother.insertMany([{name: 'a'}, {age: 12}])          // db.collection-name.insertMany([{'a'}, {'b'}])
